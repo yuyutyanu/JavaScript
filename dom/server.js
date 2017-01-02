@@ -18,7 +18,7 @@ function handler(req,res){
       res.writeHead(500);
       return res.end('Error');
     }
-    res.writeHead(200,{'Content-Type': 'text/css'});
+    res.writeHead(200,{'Content-Type': 'text/js'});
     res.write(data);
     res.end();
   });
